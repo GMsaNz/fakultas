@@ -1,5 +1,15 @@
 # UTS Keamanan Informasi
 
+| Fitur                   | Implementasi                                                                         |
+| ----------------------- | ------------------------------------------------------------------------------------ |
+| **Authentication**      | Filament default menggunakan Auth bawaan Laravel (gunakan Laravel Breeze/Jetstream). |
+| **Authorization**       | Gunakan Filament Policy atau Gate agar hanya admin yang bisa mengelola data.         |
+| **Input Validation**    | Tersedia otomatis melalui Filament Forms.                                            |
+| **Database Protection** | Kolom sensitif (jika ada) bisa dienkripsi manual (`Crypt::encrypt`).                 |
+| **Session Protection**  | Gunakan middleware `auth` untuk akses halaman.                                       |
+| **Password Hashing**    | Jika ada login buatan, gunakan `Hash::make($password)` saat menyimpan.               |
+
+
 ## Tema: Data Fakultas
 
 Proyek ini dibuat menggunakan Laravel 12 dan Filament v3 sebagai studi kasus untuk pengelolaan dan pengamanan data guru.

@@ -32,4 +32,4 @@ Proyek ini dibuat menggunakan Laravel 12 dan Filament v3 sebagai studi kasus unt
 4. Jalankan `php artisan serve`
 
 ---
-**Disusun oleh:** Muhammad Fahrel
+**Disusun oleh:** Muhammad Fahrel 20230801197

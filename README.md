@@ -1,5 +1,11 @@
 # UTS Keamanan Informasi
 
+## Tema: Data Fakultas
+
+Proyek ini dibuat menggunakan Laravel 12 dan Filament v3 sebagai studi kasus untuk pengelolaan dan pengamanan data guru.
+
+
+### Fitur Keamanan Yang diterapkan
 | Fitur                   | Implementasi                                                                         |
 | ----------------------- | ------------------------------------------------------------------------------------ |
 | **Authentication**      | Filament default menggunakan Auth bawaan Laravel (gunakan Laravel Breeze/Jetstream). |
@@ -9,10 +15,6 @@
 | **Session Protection**  | Gunakan middleware `auth` untuk akses halaman.                                       |
 | **Password Hashing**    | Jika ada login buatan, gunakan `Hash::make($password)` saat menyimpan.               |
 
-
-## Tema: Data Fakultas
-
-Proyek ini dibuat menggunakan Laravel 12 dan Filament v3 sebagai studi kasus untuk pengelolaan dan pengamanan data guru.
 
 ### Fitur Utama:
 - CRUD data fakultas (kode, nama, dekan, email)
